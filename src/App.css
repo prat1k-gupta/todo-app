@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.todolist-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.todo-row{
+  display: flex;
+  width: 65%;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+   
+}
+
+.complete{
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
